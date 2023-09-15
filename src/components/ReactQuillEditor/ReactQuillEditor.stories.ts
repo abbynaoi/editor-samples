@@ -1,6 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import ReactQuillEditor from './ReactQuillEditor';
 
+// react-quill
 const meta = {
   title: 'ReactQuillEditor',
   component: ReactQuillEditor,
