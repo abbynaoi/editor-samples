@@ -1,16 +1,16 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import ReactQuillEditor from './ReactQuillEditor';
+import QuillEditor from './QuillEditor';
 import { allHavingElementsHtml } from '../../mockdata/html';
 
 // react-quill
 const meta = {
-  title: 'ReactQuillEditor',
-  component: ReactQuillEditor,
+  title: 'QuillEditor',
+  component: QuillEditor,
   parameters: {
     // More on how to position stories at: https://storybook.js.org/docs/react/configure/story-layout
-    layout: 'padded',
+    layout: 'fullscreen',
   },
-} satisfies Meta<typeof ReactQuillEditor>;
+} satisfies Meta<typeof QuillEditor>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
