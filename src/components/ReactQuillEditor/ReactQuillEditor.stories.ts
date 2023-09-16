@@ -2,7 +2,6 @@ import type { Meta, StoryObj } from '@storybook/react';
 import ReactQuillEditor from './ReactQuillEditor';
 import { allHavingElementsHtml } from '../../mockdata/html';
 
-// react-quill
 const meta = {
   title: 'ReactQuillEditor',
   component: ReactQuillEditor,
