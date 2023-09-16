@@ -1,15 +1,15 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import QuillEditor from './QuillEditor';
+import SlateEditor from './SlateEditor';
 import { allHavingElementsHtml } from '../../mockdata/html';
 
 const meta = {
-  title: 'QuillEditor',
-  component: QuillEditor,
+  title: 'SlateEditor',
+  component: SlateEditor,
   parameters: {
     // More on how to position stories at: https://storybook.js.org/docs/react/configure/story-layout
     layout: 'padded',
   },
-} satisfies Meta<typeof QuillEditor>;
+} satisfies Meta<typeof SlateEditor>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
