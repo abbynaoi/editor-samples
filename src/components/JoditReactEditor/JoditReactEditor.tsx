@@ -15,6 +15,8 @@ const JoditReactEditor = ({ defaultValue = '' }: Props) => {
 	const [content, setContent] = useState(defaultValue);
 
 	return (
+    <>
+    <button onClick={() => console.log(content)}>Log content</button>
 		<JoditEditor
 			ref={editor}
 			value={content}
@@ -22,6 +24,7 @@ const JoditReactEditor = ({ defaultValue = '' }: Props) => {
 			onBlur={newContent => setContent(newContent)} // preferred to use only this option to update the content for performance reasons
 			onChange={newContent => {}}
 		/>
+    </>
 	)
 }
 
